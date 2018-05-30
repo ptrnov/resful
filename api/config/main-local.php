@@ -5,6 +5,55 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'dWut4SrmYAaXg0NfqpPwnJa23RMIUG7j_kgapi',
         ],
+		 'production_api' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
+		'db_login' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
+		'db_master' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
+		'db_transaksi' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
+		'db_hris' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
+		'db_ppob' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
+		'db_laporan' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=kg',
+            'username' => 'root',
+            'password' => 'Syairasyaka1981',
+            'charset' => 'utf8',
+        ],
     ],
 ];
 
