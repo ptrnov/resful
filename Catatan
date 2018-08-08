@@ -1,7 +1,13 @@
 API ->JSON
 API->Proxy
+
 API->Gateway / management is a plus
+   - Syncronous - step by step
+   - Asyncronus - paralel
 API->Scurity
+ 1. Static strings		-> menyematkan string sebagai token
+ 2. Dynamic tokens   		-> Token memiliki waktu untuk hidup (TTL) 
+ 3. User-delegated token	->  perlu mengakses API atas nama pengguna untuk Token Akases/permintaan
 
 API-GATEWAY
 https://www.nginx.com/blog/building-microservices-using-an-api-gateway/
