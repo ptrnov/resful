@@ -2,3 +2,6 @@ API ->JSON
 API->Proxy
 API->Gateway / management is a plus
 API->Scurity
+
+
+https://www.nginx.com/blog/building-microservices-using-an-api-gateway/
